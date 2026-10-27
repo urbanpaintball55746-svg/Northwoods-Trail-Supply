@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Northwoods Trail & Supply LLC | Specialty Outdoor Utility & Trail Hardware</title>
+  <meta name="description" content="Minnesota-based specialty retailer of heavy-duty outdoor utility gear, paddlesports & cycling transport hardware, campfire cooking equipment, and workshop storage." />
+  <style>
+    :root {
+      --forest-dark: #14281d;
+      --forest-mid: #1f3d2b;
+      --pine-accent: #2e5a40;
+      --amber-gold: #c88a32;
+      --sand-bg: #f6f4ef;
+      --card-bg: #ffffff;
+      --slate-text: #222925;
+      --muted-text: #55605a;
+      --border-soft: #e2dfd7;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--slate-text);
+      background-color: var(--sand-bg);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Top Announcement Bar */
+    .topbar {
+      background-color: var(--forest-dark);
+      color: #d8e2dc;
+      font-size: 0.82rem;
+      padding: 8px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .topbar span strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .topbar-right {
+      display: flex;
+      gap: 20px;
+    }
+
+    /* Header & Nav */
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid var(--border-soft);
+      padding: 18px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: var(--forest-dark);
+    }
+    .brand-mark {
+      width: 44px;
+      height: 44px;
+      background-color: var(--forest-mid);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 1.15rem;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 6px rgba(20,40,29,0.18);
+    }
+    .brand-text h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      color: var(--forest-dark);
+      line-height: 1.15;
+    }
+    .brand-text p {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 1.1px;
+      color: var(--muted-text);
+      font-weight: 600;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--slate-text);
+      font-size: 0.92rem;
+      font-weight: 600;
+      transition: color 0.15s ease;
+    }
+    nav a:hover {
+      color: var(--pine-accent);
+    }
+    .nav-cta {
+      background-color: var(--forest-mid);
+      color: #ffffff !important;
+      padding: 9px 18px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(125deg, #14281d 0%, #1f3d2b 60%, #274b35 100%);
+      color: #ffffff;
+      padding: 56px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.35fr 0.85fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: rgba(200, 138, 50, 0.22);
+      border: 1px solid rgba(200, 138, 50, 0.55);
+      color: #f3c677;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      margin-bottom: 16px;
+    }
+    .hero h2 {
+      font-size: 2.35rem;
+      line-height: 1.16;
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      font-size: 1.04rem;
+      color: #d5e0d9;
+      margin-bottom: 24px;
+      max-width: 620px;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .btn-primary {
+      background-color: var(--amber-gold);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.94rem;
+    }
+    .btn-secondary {
+      background-color: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.28);
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.94rem;
+    }
+    .hero-panel {
+      background-color: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 12px;
+      padding: 24px;
+      backdrop-filter: blur(6px);
+    }
+    .hero-panel h3 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      color: #f3c677;
+      margin-bottom: 14px;
+    }
+    .spec-list {
+      list-style: none;
+      display: grid;
+      gap: 11px;
+    }
+    .spec-list li {
+      font-size: 0.89rem;
+      color: #e6eee9;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding-bottom: 8px;
+    }
+    .spec-list li:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .spec-list span.label {
+      color: #a9bdb0;
+    }
+    .spec-list span.val {
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    /* Main Content Container */
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 44px 40px;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 26px;
+    }
+    .section-header h3 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--forest-dark);
+      letter-spacing: -0.3px;
+    }
+    .section-header p {
+      font-size: 0.95rem;
+      color: var(--muted-text);
+      margin-top: 4px;
+    }
+    .section-tag {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      color: var(--pine-accent);
+      background: #e3ede7;
+      padding: 5px 11px;
+      border-radius: 5px;
+    }
+
+    /* Categories Grid */
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .cat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-soft);
+      border-radius: 10px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+    .cat-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background-color: #eaf1ed;
+      color: var(--forest-mid);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.95rem;
+      margin-bottom: 14px;
+    }
+    .cat-card h4 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--forest-dark);
+      margin-bottom: 8px;
+    }
+    .cat-card p {
+      font-size: 0.86rem;
+      color: var(--muted-text);
+      margin-bottom: 14px;
+    }
+    .sku-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+    .sku-tag {
+      font-size: 0.73rem;
+      background-color: var(--sand-bg);
+      border: 1px solid var(--border-soft);
+      color: var(--slate-text);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    /* Brand Partner / MAP Compliance Section */
+    .partner-band {
+      background-color: #ffffff;
+      border-top: 1px solid var(--border-soft);
+      border-bottom: 1px solid var(--border-soft);
+      padding: 44px 40px;
+    }
+    .partner-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .pillar {
+      background-color: var(--sand-bg);
+      border: 1px solid var(--border-soft);
+      border-radius: 10px;
+      padding: 22px;
+    }
+    .pillar h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--forest-dark);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .pillar p {
+      font-size: 0.87rem;
+      color: var(--muted-text);
+    }
+
+    /* Footer */
+    footer {
+      background-color: var(--forest-dark);
+      color: #b7c6bd;
+      padding: 36px 40px;
+      font-size: 0.86rem;
+    }
+    .footer-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .footer-inner strong {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <span><strong>NORTHWOODS TRAIL & SUPPLY LLC</strong> • Authorized Specialty Outdoor & Utility Gear Retailer (Minnesota, USA)</span>
+    <div class="topbar-right">
+      <span>B2B & Vendor Desk: <strong>sales@northwoodstrailsupply.com</strong></span>
+      <span>Fast U.S. Ground Fulfillment</span>
+    </div>
+  </div>
+
+  <header>
+    <a href="#" class="brand">
+      <div class="brand-mark">NT</div>
+      <div class="brand-text">
+        <h1>NORTHWOODS TRAIL & SUPPLY</h1>
+        <p>Outdoor Utility • Trail Transport • Field Hardware</p>
+      </div>
+    </a>
+    <nav>
+      <a href="#categories">Product Categories</a>
+      <a href="#standards">Quality Standards</a>
+      <a href="#partners">Authorized Dealer & MAP Policy</a>
+      <a href="#contact" class="nav-cta">Vendor & Brand Inquiries</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="badge">Minnesota Headquartered • Specialty Utility Outfitter</div>
+        <h2>Heavy-Duty Gear Built for the Trail, Water, Backyard & Workshop.</h2>
+        <p>
+          Northwoods Trail & Supply LLC equips outdoor hobbyists, paddlers, cyclists, and property owners with rugged, spec-driven utility hardware—from all-terrain kayak carts and e-bike mechanic workstands to welded steel campfire cooking systems and backyard target stands.
+        </p>
+        <div class="hero-actions">
+          <a href="#categories" class="btn-primary">Explore Core Product Lines</a>
+          <a href="#partners" class="btn-secondary">Manufacturer & Distributor Partnerships</a>
+        </div>
+      </div>
+
+      <div class="hero-panel">
+        <h3>Company & Retailer Profile</h3>
+        <ul class="spec-list">
+          <li><span class="label">Legal Entity</span><span class="val">Northwoods Trail & Supply LLC</span></li>
+          <li><span class="label">Home Jurisdiction</span><span class="val">State of Minnesota (USA)</span></li>
+          <li><span class="label">Primary Classification</span><span class="val">Specialty Outdoor & Utility Retail</span></li>
+          <li><span class="label">Pricing Integrity</span><span class="val">100% Strict MAP Compliance</span></li>
+          <li><span class="label">Fulfillment Standard</span><span class="val">1–2 Business Day Domestic Ground</span></li>
+          <li><span class="label">Purchasing Contact</span><span class="val">sales@northwoodstrailsupply.com</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <main class="container" id="categories">
+    <div class="section-header">
+      <div>
+        <h3>Core Merchandising Categories</h3>
+        <p>Focused on durable, non-motorized outdoor utility equipment and heavy-gauge transport hardware.</p>
+      </div>
+      <span class="section-tag">4 Specialty Divisions</span>
+    </div>
+
+    <div class="grid-4">
+      <div class="cat-card">
+        <div>
+          <div class="cat-icon">01</div>
+          <h4>Paddlesports & Trail Transport</h4>
+          <p>Heavy-duty transport dollies, car-top carrier systems, and hitch-mounted gear haulers engineered for canoes, kayaks, and overland cargo.</p>
+        </div>
+        <div class="sku-tags">
+          <span class="sku-tag">Kayak & Canoe Dollies</span>
+          <span class="sku-tag">Hitch Cargo Racks</span>
+          <span class="sku-tag">Cradle & Strap Kits</span>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div>
+          <div class="cat-icon">02</div>
+          <h4>Cycling & E-Bike Maintenance</h4>
+          <p>High-load telescoping mechanic workstands, bench-mount repair clamps, and heavy-gauge garage storage racks built for modern road, mountain, and fat-tire e-bikes.</p>
+        </div>
+        <div class="sku-tags">
+          <span class="sku-tag">88–110 lb E-Bike Stands</span>
+          <span class="sku-tag">Telescoping Workstands</span>
+          <span class="sku-tag">Wall & Hitch Bike Racks</span>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div>
+          <div class="cat-icon">03</div>
+          <h4>Backyard & Field Athletics</h4>
+          <p>Regulation-height portable disc golf practice targets, collapsible steel archery target stands, and weather-resistant backyard training hardware.</p>
+        </div>
+        <div class="sku-tags">
+          <span class="sku-tag">24-Chain Disc Golf Baskets</span>
+          <span class="sku-tag">Steel Archery Stands</span>
+          <span class="sku-tag">Field Practice Gear</span>
+        </div>
+      </div>
+
+      <div class="cat-card">
+        <div>
+          <div class="cat-icon">04</div>
+          <h4>Over-the-Fire & Camp Hardware</h4>
+          <p>Welded steel campfire cooking tripods, adjustable stake-in swivel grates, heavy-duty folding utility wagons, and rugged basecamp equipment.</p>
+        </div>
+        <div class="sku-tags">
+          <span class="sku-tag">Steel Campfire Tripods</span>
+          <span class="sku-tag">Swivel Grill Grates</span>
+          <span class="sku-tag">Folding Utility Wagons</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="partner-band" id="partners">
+    <div class="partner-inner">
+      <div class="section-header" style="margin-bottom: 12px;">
+        <div>
+          <h3>Why Manufacturers & Distributors Partner With Us</h3>
+          <p>We protect brand equity, enforce Minimum Advertised Pricing (MAP), and deliver technical customer support.</p>
+        </div>
+        <span class="section-tag">Authorized Dealer Commitment</span>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar">
+          <h4>✓ Strict MAP Policy Enforcement</h4>
+          <p>We honor all manufacturer Minimum Advertised Price (MAP) schedules across our direct storefront and authorized marketplace channels—never discounting below brand guidelines.</p>
+        </div>
+        <div class="pillar">
+          <h4>✓ Technical Spec Merchandising</h4>
+          <p>Bulky utility hardware requires accurate load ratings, dimensional diagrams, and compatibility guides. We audit every product listing to reduce buyer confusion and prevent returns.</p>
+        </div>
+        <div class="pillar">
+          <h4>✓ Seamless Domestic Logistics</h4>
+          <p>Partnering with premier U.S. manufacturers and regional warehouses, we maintain 1–2 business day handling standards, full Seller-of-Record accountability, and dedicated U.S. customer care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-inner">
+      <div>
+        <strong>Northwoods Trail & Supply LLC</strong> • Managing Member: Andrew Johnson<br />
+        Minnesota, United States • Business & Wholesale Inquiries: <strong>sales@northwoodstrailsupply.com</strong>
+      </div>
+      <div>
+        © 2026 Northwoods Trail & Supply LLC. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

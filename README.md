@@ -6,6 +6,6 @@ Minnesota specialty outdoor and utility gear retailer, outfitting from Hibbing f
 
 **Region:** Hibbing, Minnesota
 
-**Email:** urbanpaintball55746@gmail.com
+**Email:** northwoodstrailsupply@gmail.com
 
 Pushes to `main` publish the repository root to GitHub Pages at [https://northwoodstrailsupply.com](https://northwoodstrailsupply.com). Advertised prices on the storefront are MAP retail.

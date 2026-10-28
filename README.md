@@ -1,7 +1,13 @@
 # Northwoods Trail & Supply LLC
 
-Minnesota Specialty Outdoor & Utility Gear Retailer.
+Minnesota specialty outdoor and utility gear retailer, outfitting from Hibbing for trail, paddle, camp, and homestead use.
 
 **Site:** [https://northwoodstrailsupply.com](https://northwoodstrailsupply.com)
 
-This repository hosts the public storefront landing page. Pushes to `main` publish the repository root to GitHub Pages at [https://northwoodstrailsupply.com](https://northwoodstrailsupply.com).
+**Headquarters:** 11432 Dupont Rd, Hibbing, MN 55746
+
+**Phone:** (218) 969-7547
+
+**Email:** urbanpaintball55746@gmail.com
+
+Pushes to `main` publish the repository root to GitHub Pages at [https://northwoodstrailsupply.com](https://northwoodstrailsupply.com). Advertised prices on the storefront are MAP retail.

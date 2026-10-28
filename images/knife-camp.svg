@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Illustrated camp knife and sheath">
+  <rect width="800" height="600" fill="#efe7d8"/>
+  <g fill="none" stroke="#1c3a28" stroke-width="1" opacity="0.28">
+    <path d="M40 90h720M40 150h720M40 470h720M40 530h720"/>
+  </g>
+  <path d="M118 300 L188 262 L188 338 Z" fill="#f7f4ee" stroke="#1a3326" stroke-width="4"/>
+  <rect x="176" y="268" width="300" height="64" rx="10" fill="#8a3e1d" stroke="#1a3326" stroke-width="4"/>
+  <rect x="200" y="286" width="240" height="28" rx="6" fill="#6d3116"/>
+  <rect x="450" y="258" width="180" height="84" rx="14" fill="#1a3326"/>
+  <circle cx="500" cy="300" r="9" fill="#e0a15a"/>
+  <circle cx="540" cy="300" r="9" fill="#e0a15a"/>
+  <circle cx="580" cy="300" r="9" fill="#e0a15a"/>
+  <text x="70" y="96" fill="#1a3326" font-family="Georgia, serif" font-size="28">Camp Knife</text>
+</svg>

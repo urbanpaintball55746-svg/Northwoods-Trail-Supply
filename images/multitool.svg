@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Illustrated trail multi-tool">
+  <rect width="800" height="600" fill="#efe7d8"/>
+  <rect x="300" y="150" width="90" height="300" rx="12" fill="#1a3326"/>
+  <rect x="410" y="150" width="90" height="300" rx="12" fill="#234833"/>
+  <circle cx="345" cy="190" r="10" fill="#e0a15a"/>
+  <circle cx="455" cy="190" r="10" fill="#e0a15a"/>
+  <path d="M318 250h54M428 250h54M318 290h54M428 290h54" stroke="#e7e0d2" stroke-width="4"/>
+  <path d="M180 280l120-20v70l-120-16z" fill="#d7d2c8" stroke="#1a3326" stroke-width="3"/>
+  <path d="M500 250l130 10-20 36-110-8z" fill="#c4a574" stroke="#1a3326" stroke-width="3"/>
+  <path d="M520 360l90 70-28 24-78-64z" fill="#8a3e1d" stroke="#1a3326" stroke-width="3"/>
+  <text x="70" y="96" fill="#1a3326" font-family="Georgia, serif" font-size="28">Trail Multi-Tool</text>
+</svg>

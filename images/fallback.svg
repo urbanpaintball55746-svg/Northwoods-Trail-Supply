@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Pine ridge illustration">
+  <rect width="800" height="600" fill="#1a3326"/>
+  <g fill="none" stroke="#c4a574" stroke-width="1.2" opacity="0.45">
+    <path d="M40 120c80-30 140-20 220 10s150 20 250-10 160-10 250 20"/>
+    <path d="M20 180c90-24 160-8 250 16s170 18 270-14 150-6 240 24"/>
+    <path d="M30 250c100-28 180-6 270 18s160 16 260-16 140-4 210 22"/>
+    <path d="M10 320c110-20 190 4 280 22s180 10 270-18 160 0 230 18"/>
+  </g>
+  <path fill="#10261b" d="M0 430l70-80 50 40 80-120 64 70 90-150 70 80 86-110 70 60 80-90 140 110v260H0z"/>
+  <path fill="#163526" d="M0 480l90-50 70 30 100-80 80 46 110-90 90 50 80-40 180 70v134H0z"/>
+  <g fill="#234833">
+    <path d="M150 470l28-90 28 90z"/>
+    <path d="M250 490l36-120 36 120z"/>
+    <path d="M560 480l32-110 32 110z"/>
+    <path d="M650 500l24-80 24 80z"/>
+  </g>
+  <circle cx="620" cy="120" r="28" fill="#e0a15a"/>
+  <text x="48" y="78" fill="#f4f0e6" font-family="Georgia, serif" font-size="28">Northwoods Trail &amp; Supply</text>
+</svg>

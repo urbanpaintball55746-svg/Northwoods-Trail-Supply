@@ -4,9 +4,7 @@ Minnesota specialty outdoor and utility gear retailer, outfitting from Hibbing f
 
 **Site:** [https://northwoodstrailsupply.com](https://northwoodstrailsupply.com)
 
-**Headquarters:** 11432 Dupont Rd, Hibbing, MN 55746
-
-**Phone:** (218) 969-7547
+**Region:** Hibbing, Minnesota
 
 **Email:** urbanpaintball55746@gmail.com
 

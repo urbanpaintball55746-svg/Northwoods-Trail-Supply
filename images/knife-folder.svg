@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrated folding field knife">
+  <rect width="800" height="600" fill="#efe7d8"/>
+  <g fill="none" stroke="#1c3a28" stroke-width="1" opacity="0.35">
+    <path d="M40 80h720M40 140h720M40 200h720M40 460h720M40 520h720"/>
+  </g>
+  <path d="M120 300c40-8 180-18 280-8 80 8 160 6 240-14 18-4 36 10 28 26-30 18-120 28-210 24-110-4-220 8-310 6-28 0-42-22-28-34z" fill="#d7d2c8" stroke="#1a3326" stroke-width="3"/>
+  <path d="M150 292c70-6 150-4 210 2 8 1 8 16 0 18-70 6-150 2-220-2-10-1-10-16 10-18z" fill="#8a3e1d"/>
+  <circle cx="188" cy="300" r="7" fill="#c4a574" stroke="#1a3326"/>
+  <circle cx="230" cy="298" r="5" fill="#1a3326"/>
+  <path d="M430 286l230-36 18 22-236 28z" fill="#e8e4dc" stroke="#1a3326" stroke-width="3"/>
+  <path d="M470 276l160-24" stroke="#8a3e1d" stroke-width="2"/>
+  <text x="70" y="96" fill="#1a3326" font-family="Georgia, serif" font-size="28">Field Folder</text>
+  <text x="70" y="520" fill="#5c675f" font-family="Georgia, serif" font-size="18">NT-EDGE-210 · liner lock · illustrated plate</text>
+</svg>

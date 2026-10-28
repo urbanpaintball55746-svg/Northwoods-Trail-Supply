@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Illustrated camp knife and sheath">
+  <rect width="800" height="600" fill="#efe7d8"/>
+  <path d="M150 250c20-70 40-120 70-150 18 40 28 90 30 150 48 8 90 28 110 70-40 18-90 24-150 20-10 40-30 70-60 90-20-40-30-90-30-140-30-8-60-10-80-6 8-16 30-24 110-34z" fill="#234833"/>
+  <rect x="250" y="300" width="360" height="36" rx="6" fill="#d9d3c7" stroke="#1a3326" stroke-width="3"/>
+  <path d="M600 300l70 18-70 18z" fill="#f4f0e6" stroke="#1a3326" stroke-width="3"/>
+  <rect x="270" y="348" width="300" height="46" rx="8" fill="#8a3e1d"/>
+  <circle cx="300" cy="318" r="6" fill="#c4a574" stroke="#1a3326"/>
+  <text x="70" y="96" fill="#1a3326" font-family="Georgia, serif" font-size="28">Camp Knife</text>
+  <text x="70" y="530" fill="#5c675f" font-family="Georgia, serif" font-size="18">NT-EDGE-088 · full tang · leather sheath</text>
+</svg>
